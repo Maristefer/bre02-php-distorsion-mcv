@@ -27,4 +27,6 @@ class CategoryManager extends AbstractManager
 
         return $categories;//Retourne le tableau de catégories ($categories) contenant tous les objets Category créés.
     }
+    
+    
 }

@@ -16,9 +16,14 @@ class CateroryController
         echo "Je veux appeler la route pour ajouter une catégorie<br>";
     }
     
-    public function get_Caterory(): void
+    public function getCategory(): void
     {
-        echo "Je veux appeler la route pour aafficher une catégorie<br>";
+        //chemin de la page que l'on souhaite visualiser
+        $template = "templates/get_category.phtml";
+        
+        //fait le lien avec la page principale
+        require "templates/layout.phtml";
+        //echo "Je veux appeler la route pour afficher une catégorie<br>";
     }
     
      public function getCategories(): void

@@ -33,7 +33,8 @@ class Router
         }
         else if($route !== null && $route === 'get-category')
         {
-            echo "Je veux appeler la route pour aafficher une catégorie<br>";
+            $this->cc->getCategory();
+            //echo "Je veux appeler la route pour afficher une catégorie<br>";
         }
         else if($route !== null && $route === 'get-categories')
         {
