@@ -21,10 +21,9 @@ class AbstractManager
             $password); 
     
     echo "<pre>";
-    var_dump($this->pdo);
+    var_dump($this->db);
     echo "</pre>";
     }
     
    
-}
 }

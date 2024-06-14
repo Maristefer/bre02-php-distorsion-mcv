@@ -25,7 +25,7 @@ class Router
         {
             //appel de la méthode home()
             $this->dc->home();
-           //teste des routes echo "Je veux appeler la route home<br>";
+           //teste des routes : echo "Je veux appeler la route home<br>";
         }
         else if($route !== null && $route === 'add-category')
         {

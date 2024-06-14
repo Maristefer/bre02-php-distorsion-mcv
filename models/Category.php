@@ -4,7 +4,7 @@ class Category//classe Category qui correspond à la table `categories` de la ba
 {
     private ? int $id= null;
     
-    public function construct( private string $name)
+    public function __construct(private string $name)
     {
         
     }
